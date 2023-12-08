@@ -4,173 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internal css</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        h1 {
-            text-transform: uppercase;
-            /* border: 2px solid black; */
-            color: #627880;
-            /* text-align: center; */
-            padding-left: 100px;
-        }
-
-        h2 {
-            color: #72787a;
-            font-size: 35px;
-            margin: 30px;
-        }
-        h3 {
-            /* padding: 50px; */
-            padding-left: 50px;
-            font-size: 20px;
-            /* border: 2px solid blue; */
-            margin-top: 20px;
-        }
-
-        p {
-            text-align: justify;
-            padding: 20px;
-            /* border: 2px dotted red; */
-            margin: 20px;
-            color: rgb(60, 78, 79);
-        }
-
-        button {
-            margin-bottom: 50px;
-            padding: 10px;
-            font-weight: 700;
-            color: #627880;
-            /* box-shadow: -5px -5px 10px gray; */
-            /* -webkit-box-shadow: 20px 16px 73px -3px rgba(98, 120, 128, 0.87);
-            -moz-box-shadow: 20px 16px 73px -3px rgba(98, 120, 128, 0.87);
-            box-shadow: 20px 16px 73px -3px rgba(98, 120, 128, 0.87); */
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-            border-radius: 10px;
-        }
-        img{
-            border-radius: 20px;
-        }
-        a
-        {
-            text-decoration: none;
-            font-size: 20px;
-            margin-right: 70px;
-            text-transform: capitalize;
-            color:#363e41 ;
-        }
-       
-    </style>
+    <title>blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="menu">
+        <nav>
+            <ul class="navbar">
+                <img class="img-logo" src="./img/logo.png" alt="logo">
+                <h1 class="nav-item">bloger</h1>
 
-
-
-    <header>
-        <table width="100%">
-            <tr>
-                <td width="8%"><img src="./img/logo1.png" width="100% "> </td>
-                <td>
-                    <h1>My web</h1>
-                </td>
-
-                <td width="5%">
-                    <a href="">home</a>
-
-                </td>
-                <td width="5%">
-                    <a href="">About</a>
-                </td>
-                <td width="5%">
-                    <a href="">contect</a>
-
-                </td>
-                <td width="5%">
-                    <a href="">services</a>
-
-                </td>
-            </tr>
-        </table>
-
-
-        <hr >
+                <li class="nav-item"><a href="home.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="blog.html">Blog</a></li>
+                <li class="nav-item"><a href="">Contect</a></li>
+                <button class="btn"><a href="login.html">Login</a></button>
+            </ul>
+        </nav>
     </header>
-
-
-
+    <div class="manuspace"></div>
     <main>
+        <div class="p_homeHeader">
+            <div class="l_homeHeader">
+                <h1>blog Web heading </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati quaerat ullam, similique eaque ducimus laborum odit ipsam vel deserunt, dignissimos nesciunt accusamus quis nisi pariatur, in assumenda voluptatibus! Enim!</p>
 
-        <h2 align="center">
-            PRODUCS
-        </h2>
+                <div class="homeHeader_btn">
+                    <button>veiw blog </button>
+                    <button>Go to login </button>
+                </div>
+            </div>
+            <div class="r_homeHeader">
+                <img src="./img//programming.svg" alt="">
+            </div>
+        </div>
 
-        <center>
-            <table width="90%">
-                <tr>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?9" alt=""></center>
-                        <h3>Product 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, odio, reprehenderit vitae
-                            reiciendis exercitationem qui porro cumque quia atque sunt ex amet dolorum. Et, tempore.</p>
-                        <center><a href="lesson8.1.html"><button> Read more</button></a></center>
-
-                    </td>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?6" alt=""></center>
-                        <h3>Product 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iusto. Debitis ducimus
-                            adipisci fugit amet iste inventore nihil, perferendis, rem facere consequatur dicta impedit
-                            a?</p>
-                        <center><a href="lesson8.2.html"><button> Read more</button></a></center>
-                    </td>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?5" alt=""></center>
-                        <h3>Product 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iusto. Debitis ducimus
-                            adipisci fugit amet iste inventore nihil, perferendis, rem facere consequatur dicta impedit
-                            a?</p>
-                        <center><a href="lesson8.2.html"><button> Read more</button></a></center>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?1" alt=""></center>
-                        <h3>Product 4</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, odio, reprehenderit vitae
-                            reiciendis
-                            exercitationem qui porro cumque quia atque sunt ex amet dolorum. Et, tempore.</p>
-                        <center><a href="lesson4.html"><button> Read more</button></a></center>
-
-                    </td>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?2" alt=""></center>
-                        <h3>Product 5</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iusto. Debitis ducimus
-                            adipisci fugit amet
-                            iste inventore nihil, perferendis, rem facere consequatur dicta impedit a?</p>
-                        <center><a href="lesson5.html"><button> Read more</button></a></center>
-                    </td>
-                    <td>
-                        <center><img src="https://picsum.photos/350/300?3" alt=""></center>
-                        <h3>Product 6</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iusto. Debitis ducimus
-                            adipisci fugit amet
-                            iste inventore nihil, perferendis, rem facere consequatur dicta impedit a?</p>
-                        <center><a href="lesson5.html"><button> Read more</button></a></center>
-                    </td>
-                </tr>
-
-            </table>
-        </center>
-
+    
+    
+               <section>
+                <h1 align="center">about for blog web</h1>
+                <div class="p_card">
+                
+                
+                    <div class="card">
+                
+                        <a href="blog1.html">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia tenetur architecto placeat,
+                                temporibus ipsa minus,
+                                corrupti autem cumque odit doloremque nemo rerum accusantium! Tenetur, ad.</p>
+                        </a>
+                
+                    </div>
+                    <div class="card">
+                
+                        <a href="blog1.html">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia tenetur architecto placeat,
+                                temporibus ipsa minus,
+                                corrupti autem cumque odit doloremque nemo rerum accusantium! Tenetur, ad.</p>
+                        </a>
+                
+                    </div>
+                    <div class="card">
+                
+                        <a href="blog1.html">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia tenetur architecto placeat,
+                                temporibus ipsa minus,
+                                corrupti autem cumque odit doloremque nemo rerum accusantium! Tenetur, ad.</p>
+                        </a>
+                
+                    </div>
+                </div>
+               </section>
+  
+        
     </main>
+
+    <footer class="main_f">
+        <div class="f_p">
+            <div class="f_content">
+                <h3>content</h3>
+                <ul class="f_ul">
+                    <li><a href="#">blog 1</a></li>
+                    <li><a href="#">blog 2</a></li>
+                    <li><a href="#">blog 3</a></li>
+                    <li><a href="#">blog 4</a></li>
+                    <li><a href="#">blog 5</a></li>
+                    <li><a href="#">blog 6</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Links</h3>
+                <ul class="f_ul">
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Contect</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="f_smicon">
+                <h3>social Media</h3>
+                <a href="#"><img src="./img/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt=""></a>
+                <a href="#"><img src="./img/twitter.png" alt=""></a>
+                <a href="https://www.youtube.com/"><img src="./img/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <hr>
+        <div class="f_c">Copyright &#xa9 by xyz </div>
+    </footer>
 </body>
 
 </html>

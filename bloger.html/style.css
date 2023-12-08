@@ -1,0 +1,106 @@
+
+       /* < header start */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            background-color: #dce9ee;
+            padding-bottom: 30px;
+        }
+        body{
+            background-color: #dce9ee;
+        }
+
+        .manuspace {
+            width: 100%;
+            height: 110px;
+        }
+
+        .navbar {
+            /* border: 2px solid red; */
+            margin: 0px;
+            position: fixed;
+            display: flex;
+            list-style: none;
+            width: 100%;
+            align-items: center;
+            background-color: #a5bac5;
+
+        }
+
+        h1.nav-item {
+            margin: 10px 445px 10px 40px;
+            font-family: 'orbitron', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+
+        }
+
+        .navbar>img {
+            /* border: 2px solid red; */
+            border-radius: 50px;
+            height: 90px;
+            width: 90px;
+            margin: 5px 0px 5px 10px;
+            
+        }
+
+        .nav-item {
+            /* border: 2px solid red; */
+            text-decoration: none;
+            color: #4B5F6A;
+            font-family: 'orbitron', sans-serif;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: capitalize;
+            /* font-weight: 300; */
+
+        }
+
+        .nav-item:hover {
+            margin-bottom: 5px;
+        }
+
+        .nav-item>a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bolder;
+
+        }
+
+        .btn:hover {
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            margin-bottom: 5px;
+        }
+
+        .btn {
+            /* color:#4b5f6a; */
+            padding: 5px;
+            text-align: center;
+            font-family: 'orbitron', sans-serif;
+            background-color: #D0D0D7;
+            margin: 0px 0px 0px 10px;
+            border-radius: 5px;
+            /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+
+        }
+
+        .btn>a {
+            color: #4b5f6a;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        a {
+            color: #1D085B;
+            /* text-decoration: none; */
+        }
+        
