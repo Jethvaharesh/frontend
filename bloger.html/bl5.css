@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .manuspace {
+    width: 100%;
+    height: 100px;
+  }
+  
+  main {
+    background-color: #dce9ee;
+    padding-bottom: 30px;
+  }
+  
+  body {
+    background-color: #dce9ee;
+  }
+  
+  .manuspace {
+    width: 100%;
+    height: 110px;
+  }
+  
+  .navbar {
+    /* border: 2px solid red; */
+    margin: 0px;
+    padding-left: 10px;
+    position: fixed;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    background-color: #a5bac5;
+  }
+  
+  h1.nav-item {
+    margin: 10px 480px 10px 40px;
+    font-family: "orbitron", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .navbar > img {
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 5px 10px;
+  }
+  
+  .nav-item {
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: #4b5f6a;
+    font-family: "orbitron", sans-serif;
+    margin-right: 10px;
+    /* padding-right: 20px; */
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* font-weight: 300; */
+  }
+  
+  .nav-item:hover {
+    margin-bottom: 5px;
+  }
+  
+  .nav-item > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    /* color:#4b5f6a; */
+    padding: 5px;
+    text-align: center;
+    font-family: "orbitron", sans-serif;
+    background-color: #d0d0d7;
+    margin: 0px 0px 0px 10px;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+  }
+  
+  .btn > a {
+    color: #4b5f6a;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  a {
+    color: #1d085b;
+    /* text-decoration: none; */
+  }
+  
+  /* header end */
+  
+  
+  /* main blog syle start  */
+  .blog {
+      /* border: 2px solid red; */
+      width: 60%;
+      padding: 10px;
+      margin: 30px 200px 10px 230px;
+  
+  }
+  
+  .b_t {
+      /* border: 2px solid red; */
+      color: #5D717C;
+      font-family: 'orbitron', sans-serif;
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
+  
+  .b_p {
+      /* border: 2px solid red; */
+      color: #656464;
+      padding: 10px 0 10px 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ;
+  }
+  
+  .userd {
+      /* border: 2px solid red; */
+      display: flex;
+      height: 40px;
+  }
+  
+  .userimg {
+      display: flex;
+  }
+  
+  .userimg>img {
+      border-radius: 50px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .userimg>h4 {
+      /* width: 80px; */
+      /* border: 2px solid red; */
+      font-family: 'orbitron', sans-serif;
+      font-size: 12px;
+      color: #4B5F6A;
+      padding-top: 10px;
+      padding-left: 5px;
+      margin-right: 580px;
+  }
+  
+  .userid {
+      /* border: 2px solid red; */
+      width: 30px;
+      padding-top: 15px;
+  
+      /* margin-left: 20px; */
+  }
+  
+  .userid>img {
+      width: 25px;
+  }
+  
+  
+  
+  .bc>img {
+      width: 100%;
+  }
+  
+  .bc>.bcp>p {
+      /* border: 2px solid red; */
+      color: #656464;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 10px 0 0px 0px;
+  
+  }
+  
+  .bc>.bcp>h3 {
+      /* border: 2px solid red; */
+      text-transform: capitalize;
+      font-size: 17px;
+      color: #4B5F6A;
+      font-family: 'orbitron', sans-serif;
+      padding: 10px 0 5px 0;
+  }
+  
+  .bcp>ul>li {
+      /* border: 2px solid red; */
+      list-style:disc;
+      color: #656464;
+      padding-bottom: 5px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ;
+  
+  }
+  
+  .bcp>ul {
+      padding-bottom: 10px;
+  
+  }
+  
+  .f_div {
+      display: flex;
+      /* border: 2px solid red; */
+      max-height: 20px;
+  }
+  
+  .f_div>img {
+      border: #414242;
+      width: 20px;
+      padding-left: 5px;
+  }
+  
+  .ft>a>button:hover {
+      background-color: #4B5F6A;
+      box-shadow: rgba(0, 0, 0, 0.651) 0px 14px 28px, rgba(0, 0, 0, 0.47) 0px 10px 10px;
+      border-color: #4B5F6A;
+      color: #D0D0D7;
+  }
+  
+  .ft>a>button {
+      color: #4B5F6A;
+      font-weight: bold;
+      font-family: 'orbitron', sans-serif;
+      ;
+      background-color: #D0D0D7;
+      border-radius: 5px;
+      /* border: 2px solid red; */
+      font-size: 15px;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* mian blog style  end */
+  
+  
+  /* footetr start */
+  
+  .mainf {
+    background-color: #531008;
+  }
+  
+  .f_p {
+    /* border: 2px solid red; */
+  
+    padding: 30px 30px 10px 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  ul.f_ul {
+    list-style: none;
+  }
+  
+  ul.f_ul > li {
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  ul.f_ul > li :hover {
+    padding-top: 5px;
+    color: blue;
+  }
+  
+  ul.f_ul > li > a {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #a5a5aa;
+  }
+  
+  .f_p > div > h3 {
+    font-size: 15px;
+    font-family: "orbitron", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #f1e3e3;
+    font-weight: bold;
+  }
+  
+  .c_main {
+    /* border: 2px solid red; */
+    padding: 20px 20px 20px 50px;
+    display: flex;
+  }
+  
+  .c_main > div {
+    /* border: 2px red; */
+    color: #4b5f6a;
+    text-transform: capitalize;
+    padding: 0px 20px 0px 5px;
+    display: flex;
+  }
+  
+  .c_main > div > h3 {
+    font-family: "orbitron", sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  
+  .c_main > div > h4 {
+    font-family: "orbitron", sans-serif;
+    margin: 40px 20px 0px 10px;
+    font-size: 15px;
+  }
+  
+  .c_main > div > h5 {
+    font-family: "orbitron", sans-serif;
+    font-size: 13px;
+    margin: 40px 10px 0px 390px;
+  }
+  
+  .f_smicon > a {
+    width: 25%;
+    padding: 10px 10px 0px 0px;
+  }
+  
+  .f_smicon > a > img {
+    width: 30px;
+  }
+  
+  .f_smicon > a > img:hover {
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .mainf > hr {
+    width: 99%;
+    color: #5b5b5d;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+  }
+  
+  /* footer end  */
+  

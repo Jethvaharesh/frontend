@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>contact</title>
+    <style>
+        .manuspace {
+            width: 100%;
+            height: 90px;
+        }
+
+
+
+        /* topic start */
+
+        .div {
+            text-transform: capitalize;
+            text-align: center;
+            background-color: #4B5F6A;
+            background-size: cover;
+            /* background-image: url(./image/ttb.png); */
+            border-bottom-left-radius: 90% 23%;
+            border-bottom-right-radius: 90% 23%;
+            box-shadow: rgba(38, 57, 77, 0.442) 0px 20px 30px -10px;
+
+        }
+
+        .topic2 {
+            /* border: 2px solid red; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: #f9f9f9;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-top: 5px;
+            padding-bottom: 70px;
+            text-transform: capitalize;
+
+
+        }
+
+        .topictitle {
+
+            /* margin: 100px; */
+            /* border: 2px solid red; */
+            text-align: center;
+
+            color: #f9f9f9;
+
+            padding: 120px 120px 0px 120px;
+            /* font-family: 'orbitron', sans-serif; */
+            font-size: 30px;
+
+        }
+
+        /* topic end         */
+
+        /* card style start */
+        .pcard {
+            /* border: 2px solid red; */
+            width: 90%;
+            display: flex;
+            margin: 0px 80px 0px 80px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+
+        }
+
+        address {
+            padding: 30px;
+            font-style: normal;
+            color: gray;
+        }
+
+        .my-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .m-2 {
+            /* border: 2px solid red; */
+            margin: 10px 10px 10px 20px;
+        }
+
+        .icon-text {
+            margin-bottom: 20px;
+            padding: 30px 0 0 0;
+        }
+
+        .card>a>div {
+            display: flex;
+
+        }
+
+        /* card style end          */
+
+        /* content style start  */
+
+        hr {
+            color: rgb(170, 170, 170);
+            width: 80%;
+        }
+
+        .div_c1 {
+            color: #4B5F6A;
+            width: 99%;
+            /* border: 2px solid red; */
+        }
+
+        .div_c1>h2 {
+            /* border: 2px solid red; */
+            font-family: 'orbitron', sans-serif;
+            font-size: 30px;
+            margin: 80px 80px 10px 80px;
+        }
+
+        .div_c1>p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            ;
+            font-size: 20px;
+            /* border: 2px solid red; */
+            padding: px;
+            margin: 0px 320px 10px 320px;
+            height: 50px;
+        }
+
+        .div_c2 {
+            display: flex;
+            /* border: 2px solid red; */
+        }
+
+        .div_c2>.cc {
+
+            color: #6d6d6d;
+            /* border: 2px solid red; */
+            height: 60px;
+            padding: 30px 90px 40px 90px;
+            margin-left: 140px;
+        }
+
+
+
+        /* form style start         */
+        .form_p {
+            /* border: 2px solid red; */
+            align-items: center;
+            /* display: flex; */
+        }
+
+        .form_p>.form_c1 {
+            /* border: 2px solid red; */
+            justify-content: space-around;
+            display: flex;
+            margin-left: 40px;
+        }
+
+        .form_p>.form_c1>.form_item1 {
+            /* border: 2px solid red; */
+            margin: 0 100px 0px 130px;
+            height: 80px;
+            color: #4B5F6A;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            ;
+            text-transform: capitalize;
+        }
+
+        .form_p>.form_c1>.form_item1>input {
+            border: 2px solid #d0d3d4;
+            /* margin: 10px; */
+            /* padding-bottom: 20px; */
+            font-size: 15px;
+            border-radius: 10px;
+            width: 430px;
+            padding: 20px 5px 20px 5px;
+        }
+
+        .form_p>.form_c1>.form_item2 {
+            /* border: 2px solid red; */
+            margin: 0 190px 0px 0px;
+            height: 80px;
+            color: #4B5F6A;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: capitalize;
+        }
+
+        .form_p>.form_c1>.form_item2>input {
+
+            border: 2px solid #d0d3d4;
+            font-size: 15px;
+            border-radius: 10px;
+
+            width: 430px;
+            /* margin: 10px; */
+            padding: 20px 5px 20px 5px;
+            /* padding-bottom: 20px; */
+        }
+
+        .form_p>.form_item3 {
+            /* border: 2px solid red; */
+            margin: 40px 120px 30px 170px;
+            height: 80px;
+            width: 430px;
+            color: #4B5F6A;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .form_p>.form_item3>textarea {
+            /* position: fixed; */
+
+            border: 2px solid #d0d3d4;
+            font-size: 15px;
+            border-radius: 10px;
+
+            width: 950px;
+            height: 70px;
+            /* margin-right: 130px; */
+            padding: 20px 30px 15px 5px;
+            /* padding-bottom: 20px; */
+            /* form style end         */
+        }
+
+        .form_item4 {
+            /* border: 2px solid red; */
+            font-family: 'orbitron', sans-serif;
+            margin-top: 70px;
+        }
+
+        .form_item4>a>button:hover {
+            background-color: #4B5F6A;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            color: #D0D0D7;
+
+        }
+
+        .form_item4>a>button {
+            color: #4B5F6A;
+            font-weight: bold;
+            font-family: 'orbitron', sans-serif;
+            ;
+            background-color: #D0D0D7;
+            border-radius: 5px;
+            /* border: 2px solid red; */
+            font-size: 18px;
+            padding: 10px 15px 10px 15px;
+        }
+
+        .form_item4>a {
+            /* border: 2px red; */
+            color: #4B5F6A;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="menu">
+        <nav>
+            <ul class="navbar">
+                <img class="img-logo" src="image/gw.png" alt="logo">
+                <h1 class="nav-item">Green world</h1>
+
+                <li class="nav-item"><a href="home.html">home</a></li>
+                <li class="nav-item"><a href="blog.html">blog</a></li>
+                <li class="nav-item"><a href="about.html">about</a></li>
+                <li class="nav-item"><a href="contact.html"><u>contact</u></a></li>
+                <button class="btn"><a href="login.html">Logout</a></button>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="manuspace"></div>
+    <main>
+
+        <header>
+            <div class="div">
+                <h1 class="topictitle">contact to us</h1>
+                <p class="topic2"> Have questions? We're here to help!</p>
+            </div>
+        </header>
+        <div class="pcard">
+            <div class="card">
+                <h3 class="cardtitle">address</h3>
+                <address>plot no: 7 ,malanka,ghanshyam para ,near weter tank,
+                    dist: bhavnagar, gujarat-364002
+
+                </address>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <h3 class="cardtitle">contact number</h3>
+                    <div><img src="image/atele.png" alt="" class="my-icon m-2"> <span class="icon-text">+918154899621
+                        </span></div>
+                    <div><img src="image/awhat.png" alt="" class="my-icon m-2"><span class="icon-text">
+                            +918154899621</span></div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <h3 class="cardtitle">social media</h3>
+                    <div><a href="https://www.instagram.com"><img src="image/instagram.png" alt=""
+                                class="my-icon m-2"></a> <span class="icon-text">
+                            +918154899621</span> </div>
+                    <div><a href="https://www.facebook.com"><img src="image/facebook.png" alt=""
+                                class="my-icon m-2"></a><span class="icon-text">
+                            +918154899621</span></div>
+                </a>
+            </div>
+
+        </div>
+
+        <center>
+            <hr>
+        </center>
+        <center>
+            <div class="div_c1">
+                <h2>Can't find the answer you need?</h2>
+                <p>Contact us and we'll get back to you as soon as possible with a solution to whatever issues you're
+                    having
+                    with green world.</p>
+            </div>
+
+            <div class="div_c2">
+                <div class="cc">
+                    <ul style="list-style: none;">
+                        <li>Message Us</li>
+                        <li>Start a chat!</li>
+                    </ul>
+                </div>
+                <div class="cc">
+                    <ul style="list-style: none;">
+                        <li>Call Anytime</li>
+                        <li>+918154899621</li>
+                    </ul>
+                </div>
+                <div class="cc">
+                    <ul style="list-style: none;">
+                        <li>Email Us</li>
+                        <li>jethvaharesh93@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+        <form class="form_p" action="home.html" method="post">
+            <div class="form_c1" >
+                <div class="form_item1">
+                    <lable for="fullname">full name</lable><br>
+                    <input type="text" id="name" placeholder="Enter full name " required></input>
+
+                </div>
+                <div class="form_item2">
+                    <lable for="email">email</lable><br>
+                    <input type="email" id="email" placeholder="Enter email" required></input>
+                </div>
+
+            </div>
+            
+            <div class="form_item3">
+                <lable for="massage">message</lable><br>
+                <textarea type="text" id="massage" cols="50" rows="5" placeholder="Enter massage" required></textarea>
+    
+            </div>
+            <center>
+                <div class="form_item4">
+                    <a href="home.html"><button>submit request</button></a>
+                </div>
+            </center>
+
+
+        </form>
+        
+
+    </main>
+    <footer class="mainf">
+
+        <div class="f_p">
+
+            <div class="f_c">
+                <h3>content</h3>
+                <ul class="f_ul">
+                    <li><a href="blog1.html">Renewable Energy Sources:</a></li>
+                    <li><a href="blog2.html">Waste Reduction and Recycling:</a></li>
+                    <li><a href="blog3.html">Climate Change and Global Warming:</a></li>
+                    <li><a href="blog4.html">Biodiversity Conservation:</a></li>
+                    <li><a href="blog5.html">Sustainable Agriculture:</a></li>
+                    <li><a href="blog6.html">Green Technology and Innovation:</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>links</h3>
+                <ul class="f_ul">
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+
+            </div>
+            <div class="f_smicon">
+                <h3>social Media</h3>
+
+                <a href="https://www.facebook.com"><img src="image/facebook.png" alt="logo not found"></a>
+                <a href="https://www.youtube.com"><img src="image/youtube.png" alt="logo not found"></a>
+                <a href="https://www.instagram.com"><img src="image/instagram.png" alt="logo not found"></a>
+                <a href="https://www.github.com"><img src="image/github.png" alt="logo not found"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="c_main">
+
+            <div class="c-item1">
+                <h3>green world </h3>
+            </div>
+            <div class="c-item2">
+                <h4>created by jethva Harsh</h4>
+            </div>
+            <div class="c-item3">
+                <h5>privacy policy * trems and condition</h5>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
