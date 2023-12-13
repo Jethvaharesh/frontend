@@ -7,372 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stblog.css">
     <title>blog</title>
-    <style>
-       /* < header start */
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        main {
-            background-color: #dce9ee;
-            padding-bottom: 30px;
-        }
-        body{
-            background-color: #dce9ee;
-        }
-
-        .manuspace {
-            width: 100%;
-            height: 100px;
-        }
-
-        .navbar {
-            /* border: 2px solid red; */
-            margin: 0px;
-            position: fixed;
-            display: flex;
-            list-style: none;
-            width: 100%;
-            align-items: center;
-            background-color: #a5bac5;
-
-        }
-
-        h1.nav-item {
-            margin: 10px 445px 10px 40px;
-            font-family: 'orbitron', sans-serif;
-            font-size: 35px;
-            font-weight: bold;
-
-        }
-
-        .navbar>img {
-            /* border: 2px solid red; */
-            border-radius: 50px;
-            height: 90px;
-            width: 90px;
-            margin: 5px 0px 5px 10px;
-            
-        }
-
-        .nav-item {
-            /* border: 2px solid red; */
-            text-decoration: none;
-            color: #4B5F6A;
-            font-family: 'orbitron', sans-serif;
-            margin-right: 10px;
-            margin-left: 10px;
-            font-size: 15px;
-            font-weight: bold;
-            text-transform: capitalize;
-            /* font-weight: 300; */
-
-        }
-
-        .nav-item:hover {
-            margin-bottom: 5px;
-        }
-
-        .nav-item>a {
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bolder;
-
-        }
-
-        .btn:hover {
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            margin-bottom: 5px;
-        }
-
-        .btn {
-            /* color:#4b5f6a; */
-            padding: 5px;
-            text-align: center;
-            font-family: 'orbitron', sans-serif;
-            background-color: #D0D0D7;
-            margin: 0px 0px 0px 10px;
-            border-radius: 5px;
-            /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
-
-        }
-
-        .btn>a {
-            color: #4b5f6a;
-            padding: 5px;
-            text-decoration: none;
-            font-size: 20px;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        a {
-            color: #1D085B;
-            /* text-decoration: none; */
-        }
-/* header end        */
-
-/* topic start */
-        .div {
-            text-align: center;
-            background-size: cover;
-            background-image: url(./image/ttb.png);
-            border-bottom-left-radius: 90% 23%;
-            border-bottom-right-radius: 90% 23%;
-            box-shadow: rgba(38, 57, 77, 0.442) 0px 20px 30px -10px;
-
-        }
-
-        .topic2 {
-            /* border: 2px solid red; */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            color: #f9f9f9;
-            text-align: center;
-            margin-bottom: 30px;
-            padding-top: 5px;
-            padding-bottom: 70px;
-            text-transform: capitalize;
-
-
-        }
-
-        .topictitle {
-           
-            /* margin: 100px; */
-            /* border: 2px solid red; */
-            text-align: center;
-            color: #f9f9f9;
-           
-            padding: 120px 120px 0px 120px;
-            font-family: 'orbitron', sans-serif;
-            font-size: 30px;
-           
-        }
- /* topic end  */
-
-
-/* main section start  */
-
-        section#cards {
-            justify-content: center;
-        }
-
-        #section {
-            background-color: #375260;
-        }
-
-        .pcard {
-            /* border: 2px solid red; */
-            width: 90%;
-            display: flex;
-            margin: 0px 80px 0px 80px;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            
-
-        }
-
-        .card:hover {
-            margin-top: 40px;
-            box-shadow: rgba(17, 16, 16, 0.733) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        }
-
-        .card {
-            /* border: 2px solid red; */
-            width: 28%;
-            word-wrap: break-word;
-            margin: 50px 0px 40px 30px;
-            /* margin-bottom: 40px; */
-            border-radius: 20px;
-            background-color: #f3f3f8;
-            box-shadow: rgba(0, 0, 0, 0.296) 0px 5px 15px;
-        }
-
-        .img-card {
-            /* border: 2px solid red; */
-            /* border-radius: 10px; */
-            /* box-shadow: rgba(38, 57, 77, 0.652) 0px 20px 30px -10px; */
-            width: 100%;
-            border-radius: 20px 20px 0px 0px;
-
-
-        }
-
-        .card>h3 {
-            /* border: 2px solid red; */
-            color: #4b5f6a;
-            margin: 30px 15px 30px 15px;
-            font-family: 'orbitron', sans-serif;
-            font-size: 15px;
-        }
-
-        .card>p {
-            /* border: 2px solid red; */
-            margin: 15px;
-            margin-bottom: 30px;
-            color: #8e8e8e;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 12px;
-            text-align: justify;
-        }
-
-        .card>footer {
-            border-top: 2px solid #8c969c;
-            display: flex;
-            margin-bottom: 30px;
-        }
-
-        .card>footer>img {
-            /* border: 2px solid red; */
-            width: 40px;
-            height: 40px;
-            margin: 5px 5px 5px 15px;
-            border-radius: 50px;
-        }
-
-        .card>footer>h4 {
-            /* border: 2px solid red; */
-            /* margin-left: 10px; */
-            color: #4b5f6a;
-            font-size: 10px;
-            font-family:'orbitron', sans-serif;
-            padding: 15px 0px 15px 0px;
-            text-transform: capitalize;
-
-        }
-        .blog_f>center>button:hover{
-            background-color:#A5BAC5 ;
-        }
-
-        .blog_f>center>button{
-            /* border: 2px solid red; */
-            padding:15px 12px 15px 12px  ;
-            border-radius: 10px;
-            color:black;
-            background-color: #F3F3F8;
-            
-        }
-       
-        
-        .blog_f>center>button>a{
-            color:#531008;
-            font-size: 15px;
-            text-transform: capitalize;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .blog_f>center>button>a:hover{
-            color:#1D0A58;
-        }
-
-        
-/* main  section end  */
-
-/* footetr start */
-
-        .mainf {
-
-            background-color:#531008;
-        }
-
-        .f_p {
-
-            /* border: 2px solid red; */
-            
-            padding: 30px 30px 10px 30px;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        ul.f_ul {
-            list-style: none;
-        }
-
-        ul.f_ul>li {
-            
-            padding-bottom: 5px;
-            text-transform: capitalize;
-        }
-        ul.f_ul>li :hover{
-            padding-top: 5px;
-            color: blue;
-        }
-
-        ul.f_ul>li>a {
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
-            text-decoration: none;
-            color:#a5a5aa;
-        }
-       
-
-        .f_p>div>h3 {
-            font-size: 15px;
-            font-family:'orbitron', sans-serif ;
-            text-transform: uppercase;
-            padding-bottom: 20px;color:#f1e3e3;
-            font-weight: bold;
-        }
-
-        .c_main{
-            /* border: 2px solid red; */
-            padding: 20px 20px 20px 50px;
-            display: flex;
-            
-        }
-        
-        .c_main>div{
-            /* border: 2px red; */
-            color:#4B5F6A ;
-            text-transform: capitalize;
-            padding: 0px 20px 0px 5px;
-            display: flex;
-            
-        }
-        .c_main>div>h3{
-            font-family: 'orbitron', sans-serif; 
-            font-size: 40px;
-            margin-top: 5px ;
-        }
-        .c_main>div>h4{
-            font-family: 'orbitron', sans-serif; 
-            margin: 40px 20px 0px 10px;
-            font-size:15px ;
-        }
-        .c_main>div>h5{
-            font-family: 'orbitron', sans-serif; ;
-            font-size: 13px;
-            margin: 40px 10px 0px 390px;
-        }
-       
-
-        .f_smicon>a {
-            width: 25%;
-            padding: 10px 10px 0px 0px;
-        }
-
-        .f_smicon>a>img {
-            width: 30px;
-        }
-        .f_smicon>a>img:hover{
-            padding-top: 5px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .mainf>hr{
-            
-            width: 99%;
-            color:#5b5b5d ;
-            justify-content: space-around;
-            /* border: 2px solid red; */
-            
-        }
-
-/* footer end  */
-    </style>
-
+  
 </head>
 
 <body>
@@ -402,143 +39,169 @@
         </header>
         <saction id="cards">
             <div class="pcard">
-                <div class="card">
-                    <img class="img-card" src="image/c1.png" alt="">
-                    <h3>Renewable Energy Sources:</h3>
-                    <p>Discuss the benefits and challenges of solar,
-                        wind, hydro, and other renewable energy sources.
-                        Highlight innovative technologies and projects
-                        in the renewable energy sector.Certainly! Let's
-                        delve deeper into the topic of renewable energy sources.
-                        You can create informative and engaging content by exploring
-                        various aspects of renewable energy. Here's a breakdown so lts go and we are going is tree to
-                        save.
-                    </p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c2.jpg" alt="">
-                    <h3>Waste Reduction and Recycling:</h3>
-                    <p>Explore effective waste management strategies and
-                        the importance of recycling.
-                        Share success stories of communities or businesses that
-                        have implemented successful recycling programs.Waste
-                        reduction and recycling are crucial components of environmental
-                        sustainability. Addressing these topics in your blog can help
-                        raise awareness and encourage positive actions. Here's a guide
-                        to explore these subjects:</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c3.png" alt="image not found">
-                    <h3>Climate Change and Global Warming:</h3>
-                    <p>Provide updates on the latest climate science and
-                        its impact on the planet.
-                        Discuss international efforts and agreements aimed
-                        at combating climate change.Addressing the topic of climate
-                        change and global warming in your blog is essential given the
-                        urgency of these issues. Here's a guide to help you cover various
-                        aspects comprehensively and also our tree is our friend amd my chlidrens friends so im rerady
-                        to save tree.</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c4.png" alt="image not found">
-                    <h3>Biodiversity Conservation:</h3>
-                    <p>Showcase efforts to protect endangered species and preserve biodiversity.
-                        Discuss the role of ecosystems and their importance in maintaining a balanced
-                        environment.Biodiversity conservation is a crucial aspect of environmental
-                        sustainability, ensuring the preservation of various species and ecosystems.
-                        Here's a guide to help you explore and discuss biodiversity conservation in your blog:</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c5.png" alt="image not found">
-                    <h3>Sustainable Agriculture:</h3>
-                    <p>Explore methods of sustainable farming and their impact on the environment.
-                        Discuss the importance of organic farming and regenerative agriculture practicesSustainable
-                        agriculture is a critical component of environmental conservation and food security. Here's
-                        a guide to help you explore and discuss sustainable agriculture in your blog so
-                        we are try to understand our small children and we can try to say him to save tree.</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c6.png" alt="image not found">
-                    <h3>Green Technology and Innovation:</h3>
-                    <p>Highlight technological advancements promoting sustainability.
-                        Discuss the role of artificial intelligence, blockchain, and other technologies in environmental
-                        conservation.Green technology and innovation play a crucial role in addressing environmental
-                        challenges and promoting sustainability. Here's a guide to help you explore and discuss green
-                        technology and innovation in your blog:</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c7.png" alt="image not found">
-                    <h3>Plastic Pollution:</h3>
-                    <p>Address the issue of plastic waste and its impact on oceans and wildlife.
-                        Discuss initiatives and campaigns to reduce single-use plastics.Plastic pollution is a pressing
-                        environmental issue that affects ecosystems, wildlife, and human health. Discussing this topic
-                        in your blog can contribute to raising awareness and encouraging positive actions. Here's a
-                        guide
-                        to help you cover plastic pollution comprehensively:</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c8.png" alt="image not found">
-                    <h3>Environmental Policies :</h3>
-                    <p>Analyze government policies and regulations aimed at promoting sustainability.
-                        Explore the role of environmental advocacy groups in driving positive change.
-                        Discussing environmental policies and advocacy in your blog can help raise
-                        awareness about the importance of regulations and the role of activism in
-                        addressing environmental issues. Here's a guide to help you cover this topic
-                        comprehensively:</p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
-                <div class="card">
-                    <img class="img-card" src="image/c9.png" alt="image not found">
-                    <h3>Eco-Friendly Lifestyles:</h3>
-                    <p>Provide tips and ideas for individuals to adopt more sustainable lifestyles.
-                        Discuss the impact of consumer choices on the environment.Promoting eco-friendly
-                        lifestyles in your blog is a great way to inspire positive change among your readers.
-                        Here's a guide to help you cover various aspects of living sustainably and also human being
-                        is gon so our new genaretion is Eco-Friendly so our best try to understnd importance
-                        of natural energy </p>
-                    <footer>
-                        <img src="image/fc1.jpg">
-                        <h4>Jethva Harsh</h4>
-                    </footer>
-                </div>
+                <a href="blog1.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c1.png" alt="">
+                        <h3>Renewable Energy Sources:</h3>
+                        <p>Discuss the benefits and challenges of solar,
+                            wind, hydro, and other renewable energy sources.
+                            Highlight innovative technologies and projects
+                            in the renewable energy sector.Certainly! Let's
+                            delve deeper into the topic of renewable energy sources.
+                            You can create informative and engaging content by exploring
+                            various aspects of renewable energy. Here's a breakdown so lts go and we are going is tree
+                            to
+                            save.
+                        </p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog2.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c2.jpg" alt="">
+                        <h3>Waste Reduction and Recycling:</h3>
+                        <p>Explore effective waste management strategies and
+                            the importance of recycling.
+                            Share success stories of communities or businesses that
+                            have implemented successful recycling programs.Waste
+                            reduction and recycling are crucial components of environmental
+                            sustainability. Addressing these topics in your blog can help
+                            raise awareness and encourage positive actions. Here's a guide
+                            to explore these subjects:</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog3.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c3.png" alt="image not found">
+                        <h3>Climate Change and Global Warming:</h3>
+                        <p>Provide updates on the latest climate science and
+                            its impact on the planet.
+                            Discuss international efforts and agreements aimed
+                            at combating climate change.Addressing the topic of climate
+                            change and global warming in your blog is essential given the
+                            urgency of these issues. Here's a guide to help you cover various
+                            aspects comprehensively and also our tree is our friend amd my chlidrens friends so im
+                            rerady
+                            to save tree.</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog4.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c4.png" alt="image not found">
+                        <h3>Biodiversity Conservation:</h3>
+                        <p>Showcase efforts to protect endangered species and preserve biodiversity.
+                            Discuss the role of ecosystems and their importance in maintaining a balanced
+                            environment.Biodiversity conservation is a crucial aspect of environmental
+                            sustainability, ensuring the preservation of various species and ecosystems.
+                            Here's a guide to help you explore and discuss biodiversity conservation in your blog:</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog5.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c5.png" alt="image not found">
+                        <h3>Sustainable Agriculture:</h3>
+                        <p>Explore methods of sustainable farming and their impact on the environment.
+                            Discuss the importance of organic farming and regenerative agriculture practicesSustainable
+                            agriculture is a critical component of environmental conservation and food security. Here's
+                            a guide to help you explore and discuss sustainable agriculture in your blog so
+                            we are try to understand our small children and we can try to say him to save tree.</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog6.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c6.png" alt="image not found">
+                        <h3>Green Technology and Innovation:</h3>
+                        <p>Highlight technological advancements promoting sustainability.
+                            Discuss the role of artificial intelligence, blockchain, and other technologies in
+                            environmental
+                            conservation.Green technology and innovation play a crucial role in addressing environmental
+                            challenges and promoting sustainability. Here's a guide to help you explore and discuss
+                            green
+                            technology and innovation in your blog:</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog7.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c7.png" alt="image not found">
+                        <h3>Plastic Pollution:</h3>
+                        <p>Address the issue of plastic waste and its impact on oceans and wildlife.
+                            Discuss initiatives and campaigns to reduce single-use plastics.Plastic pollution is a
+                            pressing
+                            environmental issue that affects ecosystems, wildlife, and human health. Discussing this
+                            topic
+                            in your blog can contribute to raising awareness and encouraging positive actions. Here's a
+                            guide
+                            to help you cover plastic pollution comprehensively:</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog8.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c8.png" alt="image not found">
+                        <h3>Environmental Policies :</h3>
+                        <p>Analyze government policies and regulations aimed at promoting sustainability.
+                            Explore the role of environmental advocacy groups in driving positive change.
+                            Discussing environmental policies and advocacy in your blog can help raise
+                            awareness about the importance of regulations and the role of activism in
+                            addressing environmental issues. Here's a guide to help you cover this topic
+                            comprehensively:</p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
+                <a href="blog9.html">
+                    <div class="card">
+                        <img class="img-card" src="image/c9.png" alt="image not found">
+                        <h3>Eco-Friendly Lifestyles:</h3>
+                        <p>Provide tips and ideas for individuals to adopt more sustainable lifestyles.
+                            Discuss the impact of consumer choices on the environment.Promoting eco-friendly
+                            lifestyles in your blog is a great way to inspire positive change among your readers.
+                            Here's a guide to help you cover various aspects of living sustainably and also human being
+                            is gon so our new genaretion is Eco-Friendly so our best try to understnd importance
+                            of natural energy </p>
+                        <footer>
+                            <img src="image/fc1.jpg">
+                            <h4>Jethva Harsh</h4>
+                        </footer>
+                    </div>
+                </a>
 
             </div>
-            
+
         </saction>
-        <footer class="blog_f"><center><button><a href="home.html">go to home</a></button></center></footer>
-            
-        
+        <footer class="blog_f">
+            <center><button><a href="home.html">go to home</a></button></center>
+        </footer>
+
+
     </main>
 
     <footer class="mainf">
@@ -576,14 +239,20 @@
         </div>
         <hr>
         <div class="c_main">
-            
-                <div class="c-item1"><h3>green world </h3></div>
-                <div class="c-item2"><h4>created by  jethva Harsh</h4> </div>
-                <div class="c-item3"><h5>privacy policy * trems and condition</h5> </div>
 
-            
+            <div class="c-item1">
+                <h3>green world </h3>
+            </div>
+            <div class="c-item2">
+                <h4>created by jethva Harsh</h4>
+            </div>
+            <div class="c-item3">
+                <h5>privacy policy * trems and condition</h5>
+            </div>
+
+
         </div>
-       
+
     </footer>
 
 </body>
