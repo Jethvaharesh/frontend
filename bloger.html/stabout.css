@@ -17,10 +17,7 @@ body{
     background-color: #dce9ee;
 }
 
-.manuspace {
-    width: 100%;
-    height: 110px;
-}
+
 
 .navbar {
     /* border: 2px solid red; */
@@ -30,6 +27,7 @@ body{
     display: flex;
     list-style: none;
     width: 100%;
+    height: 100px;
     align-items: center;
     background-color: #a5bac5;
 
@@ -113,7 +111,7 @@ a {
 
 .manuspace {
     width: 100%;
-    height: 90px;
+    height: 100px;
 }
 
 .div {
