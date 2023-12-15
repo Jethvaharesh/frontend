@@ -162,17 +162,17 @@ section#cards {
     /* border: 2px solid red; */
     width: 90%;
     display: flex;
-    margin: 0px 120px 40px 50px;
+    margin: 0px 120px 0px 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 
 }
 
-a>.card:hover {
+.pcard>a>.card:hover {
     /* border: 2px solid red; */
-    margin-top: 10px;
-    box-shadow: rgba(17, 16, 16, 0.126) 0px 10px 20px, rgba(0, 0, 0, 0.126) 0px 6px 6px;
+
+    box-shadow: rgba(52, 52, 58, 0.674) 0px 50px 100px -20px, rgba(0, 0, 0, 0.655) 0px 30px 60px -30px, rgba(10, 37, 64, 0.714) 0px -2px 6px 0px inset;
 
 
 }
@@ -184,19 +184,19 @@ a>.card:hover {
     width: 28%;
     border-radius: 20px;
     /* border: 2px solid red; */
-    margin: 50px 0px 10px 50px;
+    margin: 50px 0px 0px 50px;
 
 }
 
 .pcard>a>.card {
     /* border: 2px solid red; */
-    /* margin: 50px 0px 5px 30px; */
-    /* margin-bottom: 40px; */
+    
+    margin-bottom: 40px;
     width: 100%;
     word-wrap: break-word;
     border-radius: 20px;
     background-color: #f3f3f8;
-    box-shadow: rgba(0, 0, 0, 0.296) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 a>.card>.img-card {
