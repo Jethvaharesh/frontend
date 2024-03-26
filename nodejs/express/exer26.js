@@ -9,6 +9,5 @@ app.get("/addition/:number1/:number2",function(request,responce){
 
     responce.send(`Given  Number First ${number1} and Second ${number2}   Addition is ${addition}`);
 });
-
 app.listen(5000);
 console.log("server is ready");
